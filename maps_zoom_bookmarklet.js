@@ -3,7 +3,7 @@ javascript:(function() {
     /* var zoomlevel = x.xx */
     /* zoom in */
     var html = document.documentElement;
-    body.scrollTop += 30;
+    html.scrollTop += 30;
     /* get current url */
     var currentUrl = window.location.href;
     /* iterate url, look for zoom(z) & separator(,) */
