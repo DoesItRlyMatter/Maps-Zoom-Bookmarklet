@@ -1,9 +1,6 @@
 javascript:(function() {
     /* level of zoom on map, change this value for more or less zoom. */
     /* var zoomlevel = x.xx */
-    /* zoom in */
-    var html = document.documentElement;
-    html.scrollTop += 30;
     /* get current url */
     var currentUrl = window.location.href;
     /* iterate url, look for zoom(z) & separator(,) */
